@@ -1,4 +1,4 @@
-# Serum DEX UI
+# NNI AG Fork of Serum DEX UI
 
 An implementation of a UI for the Serum DEX.
 
