@@ -39,23 +39,23 @@ const MENU = [
   'child': [
     {
       'title': 'Add Liquidity',
-      'link': 'https://neonomad.finance/marketplace'
+      'link': '#'
     },
     {
       'title': 'Pools',
-      'link': 'https://neonomad.finance/marketplace'
+      'link': '#'
     },
     {
       'title': 'Farms',
-      'link': 'https://neonomad.finance/marketplace'
+      'link': '#'
     },
     {
       'title': 'Staking',
-      'link': 'https://neonomad.finance/marketplace'
+      'link': '#'
     },
     {
       'title': 'Airdrop Claim',
-      'link': 'https://neonomad.finance/marketplace'
+      'link': '#'
     },
     {
       'title': 'Documentation',
