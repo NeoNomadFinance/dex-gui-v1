@@ -36,7 +36,7 @@ export default function PublicTrades({ smallScreen }) {
         style={{
           color: 'rgb(117 206 220)',
           fontSize: 14,
-          borderBottom: '1px solid #4c3498',
+          borderBottom: '1px solid #6d57ad',
           padding: '12px 0 12px 16px',
         }}
       >Recent Market trades</Title>
