@@ -34,64 +34,64 @@ const MENU = [
    'title': 'DEX',
    'link': 'https://trade.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw',
  },
-  {
-   'title': 'REMOVE',
-   'child': [
-     {
-       'title': 'Add Liquidity',
-       'link': '#'
-     },
-     {
-       'title': 'Pools',
-       'link': '#'
-     },
-     {
-       'title': 'Farms',
-       'link': '#'
-     },
-     {
-       'title': 'Staking',
-       'link': '#'
-     },
-     {
-       'title': 'Airdrop Claim',
-       'link': '#'
-     },
-     {
-       'title': 'Documentation',
-       'link': 'https://docs.neonomad.finance/',
-     },
-   ]
- },
+//   {
+//    'title': 'REMOVE',
+//    'child': [
+//      {
+//        'title': 'Add Liquidity',
+//        'link': '#'
+//      },
+//      {
+//        'title': 'Pools',
+//        'link': '#'
+//      },
+//      {
+//        'title': 'Farms',
+//        'link': '#'
+//      },
+//      {
+//        'title': 'Staking',
+//        'link': '#'
+//      },
+//      {
+//        'title': 'Airdrop Claim',
+//        'link': '#'
+//      },
+//      {
+//        'title': 'Documentation',
+//        'link': 'https://docs.neonomad.finance/',
+//      },
+//    ]
+//  },
 {
   'title': 'Futures',
   'link': 'https://futures.neonomad.exchange/',
 },
- {
-   'title': 'REMOVE',
-   'child': [
-     {
-       'title': 'Account',
-       'link': 'https://futures.neonomad.exchange/account'
-     },
-     {
-       'title': 'Borrow',
-       'link': 'https://futures.neonomad.exchange/borrow'
-     },
-     {
-       'title': 'Risk Calculator',
-       'link': 'https://futures.neonomad.exchange/risk-calculator'
-     },
-     {
-       'title': 'Stats',
-       'link': 'https://futures.neonomad.exchange/stats'
-     },
-     {
-       'title': 'Docs',
-       'link': 'https://docs.neonomad.finance/',
-     },
-  ]
-},
+//  {
+//    'title': 'REMOVE',
+//    'child': [
+//      {
+//        'title': 'Account',
+//        'link': 'https://futures.neonomad.exchange/account'
+//      },
+//      {
+//        'title': 'Borrow',
+//        'link': 'https://futures.neonomad.exchange/borrow'
+//      },
+//      {
+//        'title': 'Risk Calculator',
+//        'link': 'https://futures.neonomad.exchange/risk-calculator'
+//      },
+//      {
+//        'title': 'Stats',
+//        'link': 'https://futures.neonomad.exchange/stats'
+//      },
+//      {
+//        'title': 'Docs',
+//        'link': 'https://docs.neonomad.finance/',
+//      },
+//   ]
+// },
 {
   'title': 'Swap',
   'link': 'https://futures.neonomad.exchange/swap',
