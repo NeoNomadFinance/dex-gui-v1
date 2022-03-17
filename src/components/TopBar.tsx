@@ -35,7 +35,7 @@ const MENU = [
    'link': 'https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw',
  },
   {
-   'title': 'DEX Tools •••',
+   'title': '',
    'child': [
      {
        'title': 'Add Liquidity',
@@ -68,7 +68,7 @@ const MENU = [
   'link': 'https://futures.neonomad.exchange/',
 },
  {
-   'title': 'Futures Tools •••',
+   'title': '',
    'child': [
      {
        'title': 'Account',
