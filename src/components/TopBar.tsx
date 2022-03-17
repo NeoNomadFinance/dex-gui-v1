@@ -32,10 +32,10 @@ const LogoWrapper = styled.div`
 const MENU = [
   {
    'title': 'DEX',
-   'link': 'https://dex.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw',
+   'link': 'https://trade.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw',
  },
   {
-   'title': '',
+   'title': 'REMOVE',
    'child': [
      {
        'title': 'Add Liquidity',
@@ -68,7 +68,7 @@ const MENU = [
   'link': 'https://futures.neonomad.exchange/',
 },
  {
-   'title': '',
+   'title': 'REMOVE',
    'child': [
      {
        'title': 'Account',
