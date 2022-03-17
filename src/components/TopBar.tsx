@@ -10,6 +10,7 @@ import { notify } from '../utils/notifications';
 import { Connection } from '@solana/web3.js';
 import WalletConnect from './WalletConnect';
 import { getTradePageUrl } from '../utils/markets';
+import { SITEURLS, TopBarMenuItem } from '../models/top-bar-menu-item';
 
 
 const Wrapper = styled.div`
@@ -31,74 +32,30 @@ const LogoWrapper = styled.div`
 
 const MENU = [
   {
-   'title': 'DEX',
-   'link': 'https://trade.neonomad.exchange/#/market/A8YFbxQYFVqKZaoYJLLUVcQiWP7G2MeEgW5wsAQgMvFw',
- },
-//   {
-//    'title': 'REMOVE',
-//    'child': [
-//      {
-//        'title': 'Add Liquidity',
-//        'link': '#'
-//      },
-//      {
-//        'title': 'Pools',
-//        'link': '#'
-//      },
-//      {
-//        'title': 'Farms',
-//        'link': '#'
-//      },
-//      {
-//        'title': 'Staking',
-//        'link': '#'
-//      },
-//      {
-//        'title': 'Airdrop Claim',
-//        'link': '#'
-//      },
-//      {
-//        'title': 'Documentation',
-//        'link': 'https://docs.neonomad.finance/',
-//      },
-//    ]
-//  },
-{
-  'title': 'Futures',
-  'link': 'https://futures.neonomad.exchange/',
-},
-//  {
-//    'title': 'REMOVE',
-//    'child': [
-//      {
-//        'title': 'Account',
-//        'link': 'https://futures.neonomad.exchange/account'
-//      },
-//      {
-//        'title': 'Borrow',
-//        'link': 'https://futures.neonomad.exchange/borrow'
-//      },
-//      {
-//        'title': 'Risk Calculator',
-//        'link': 'https://futures.neonomad.exchange/risk-calculator'
-//      },
-//      {
-//        'title': 'Stats',
-//        'link': 'https://futures.neonomad.exchange/stats'
-//      },
-//      {
-//        'title': 'Docs',
-//        'link': 'https://docs.neonomad.finance/',
-//      },
-//   ]
-// },
-{
-  'title': 'Swap',
-  'link': 'https://futures.neonomad.exchange/swap',
-},
-
-  
-]
+    'title': 'Home',
+    'link': 'https://neonomad.finance',
+  },
+  {
+    'title': 'Swap',
+    'link': `${SITEURLS.futures}/swap`,
+  },
+  {
+    'title': 'Futures',
+    'link': SITEURLS.futures,
+  },
+  {
+    'title': 'Farm',
+    'link': `${SITEURLS.app}/farming`,
+  },
+  {
+    'title': 'Staking',
+    'link': `${SITEURLS.app}/staking`,
+  },
+  {
+    'title': 'Launchpad',
+    'link': `${SITEURLS.app}/launchpad`,
+  }
+] as TopBarMenuItem[];
 
 export default function TopBar() {
   const {
